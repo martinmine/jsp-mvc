@@ -17,10 +17,12 @@ Each call is fist received in a filter which will find the associated controller
 
 # Libraries #
 This demo app relies on the following libraries through Maven:
+
 * [MySQL Connector/J (5.1.36) ](http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.36)
 * [Jstl (1.2)](http://mvnrepository.com/artifact/javax.servlet/jstl/1.2) 
 
 # Limitation #
+
 * This application has configuration for the database hard-coded in the class DatabaseManager.java.
 * The pages.xml could be replaced with annotations in the code, simplifying the framework.
 * Requests for saving posts does not have any validation as this demo focuses on demonstrating the MVC pattern.
