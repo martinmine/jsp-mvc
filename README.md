@@ -24,7 +24,7 @@ This demo app relies on the following libraries through Maven:
 * The pages.xml could be replaced with annotations in the code, simplifying the framework.
 * Requests for saving posts does not have any validation as this demo focuses on demonstrating the MVC pattern.
 * Annotations for only HTTP GET and POST are implemented.
-* The methods for invoking the controllers that are annotated with @Get or @Post must follow the same signature (See todo in SiteRouter::init).
+* The methods for invoking the controllers that are annotated with Get or Post must follow the same signature (See todo in SiteRouter::init).
 
 # References #
 This application is based on the MVC approach discussed in the book J2EE Design Patterns by William Crawford and Jonathan Kaplan.
