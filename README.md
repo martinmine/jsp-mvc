@@ -5,6 +5,7 @@ The web application allows a user to list all available blog posts from a databa
 When used correctly, no Java code is embedded in the JSP file. This is avoided by using EL (Expression Language) and JSP Standard Tag Library (JSTL).
 
 Each page that is accessible to the user consists of the following parts:
+
 * Page descriptor entry (pages), declaring which view, controller and URI belongs together (pages.xml)
 * JSP file (view)
 * Page controller
