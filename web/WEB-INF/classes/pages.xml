@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <controller class="net.martinmine.jsp.PostController" resourceUri="/article" viewUri="/article.jsp"/>
+    <controller class="net.martinmine.jsp.OverviewController" resourceUri="/overview" viewUri="/overview.jsp"/>
+    <controller class="net.martinmine.jsp.NewPostController" resourceUri="/create" viewUri="/createPost.jsp"/>
+</site>
