@@ -1,6 +1,6 @@
 # README #
 
-This is a demo of how the MVC pattern can be used with JSP files using a servlet filter.
+This is a demo/concept of how the MVC pattern can be used with JSP files using a servlet filter.
 The web application allows a user to list all available blog posts from a database, as well as view a specific post in addition to create a new post. 
 When used correctly, no Java code is embedded in the JSP file. This is avoided by using EL (Expression Language) and JSP Standard Tag Library (JSTL).
 
@@ -21,13 +21,14 @@ This demo app relies on the following libraries through Maven:
 * [MySQL Connector/J (5.1.36) ](http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.36)
 * [Jstl (1.2)](http://mvnrepository.com/artifact/javax.servlet/jstl/1.2) 
 
-# Limitation #
+# Limitations #
 
 * This application has configuration for the database hard-coded in the class DatabaseManager.java.
 * The pages.xml could be replaced with annotations in the code, simplifying the framework.
 * Requests for saving posts does not have any validation as this demo focuses on demonstrating the MVC pattern.
 * Annotations for only HTTP GET and POST are implemented.
 * The methods for invoking the controllers that are annotated with Get or Post must follow the same signature (See todo in SiteRouter::init).
+* The router only works with JSP files that are registered.
 
 # References #
 This application is based on the MVC approach discussed in the book J2EE Design Patterns by William Crawford and Jonathan Kaplan.
