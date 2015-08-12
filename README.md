@@ -28,7 +28,13 @@ This demo app relies on the following libraries through Maven:
 * Requests for saving posts does not have any validation as this demo focuses on demonstrating the MVC pattern.
 * Annotations for only HTTP GET and POST are implemented.
 * The methods for invoking the controllers that are annotated with Get or Post must follow the same signature (See todo in SiteRouter::init).
-* The router only works with JSP files that are registered.
+* The router only works with JSP files that are registered. Each page can have just one route.
 
 # References #
 This application is based on the MVC approach discussed in the book J2EE Design Patterns by William Crawford and Jonathan Kaplan.
+
+# Other useful resources #
+
+* [Scriptless JSP Pages: The Front Man](http://www.javaranch.com/journal/200603/frontman.html)
+* [JSP Model 2 Architecture Wikipedia](https://en.wikipedia.org/wiki/JSP_model_2_architecture)
+* [JavaServerPages - Specification 0.92: Model](http://www.kirkdorffer.com/jspspecs/jsp092.html#model)
